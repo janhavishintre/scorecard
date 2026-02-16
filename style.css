@@ -1,0 +1,40 @@
+
+body
+{
+ background-color: rgb(255, 255, 255);
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:white;
+}
+table{  
+    border-radius: 15px;
+    height: 270px;
+    width: 550px;
+    background-color: rgb(30, 30, 30);
+    color: red;
+    text-align: center;
+    font-size: 40px;
+     box-shadow:  10px 20px 30px black;
+}
+button{
+    border-radius: 15px;
+    background-color: rgb(255, 58, 58);
+    color: white;
+    font-size: 25px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+   
+}
+button:hover{
+    background-color: red
+}
+.scoreBoard h1{ 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+color:red;
+font-size: 50px;
+text-shadow: 1px 1px rgb(60, 0, 0);
+}
